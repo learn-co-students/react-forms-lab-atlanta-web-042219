@@ -20,7 +20,7 @@ class LoginForm extends React.Component {
     e.preventDefault()
 
     if (this.state.username && this.state.password) this.props.handleLogin(this.state)
-    else console.log('Some fields were left blank.')
+    else alert('Some fields were left blank.')
   }
 
   render() {
